@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Alert } from 'react-native';
 
-// ⚠️ TROQUE "localhost" pelo IP da sua máquina (use ipconfig no PC)
+
 const SERVER_URL = 'http://172.24.32.1:3000/status';
 
 export default function App() {
